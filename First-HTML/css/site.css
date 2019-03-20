@@ -1,0 +1,35 @@
+body {
+  /* text-align: center; */
+  background-color: steelblue;
+  text-align: center;
+}
+
+img {
+
+  width: 375px;
+  margin:0 auto;
+display: block;
+
+}
+
+q,p{
+  font-size: 20px;
+  text-align: center;
+  padding: 1em;
+  margin: auto;
+
+}
+ol {
+  width: 300px;
+  margin: 0 auto;
+}
+.heading {
+  text-align: center;
+  font-size: 3em;
+  border-bottom: 1px solid #000;
+}
+h2 {
+  font-size: 25px;
+  border-bottom: 1px solid #000;
+
+}
