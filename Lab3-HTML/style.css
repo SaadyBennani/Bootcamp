@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
+.logo {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+}
+.awning {
+  background: url("/assets/awning.jpg");
+}
+.call-to-action {
+    color: black;
+    background: url("/assets/brick_wall.jpg");
+    background-size: cover;
+    background-position: 60% 75%;
+    font-family: 'Shadows Into Light', cursive;
+
+    padding: 7em;
+}
+
+.call-to-action .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action .display-2 {
+    margin-bottom: 30px;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.call-to-action .lead {
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 1em;
+    border-radius: 15px;
+}
+
+.wall_break {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: black;
+  padding-left: 25px;
+}
+.button {
+  font-family: sans-serif;
+}
+
+.img_tag {
+  width: 100%;
+}
+
+
+.lr-one {
+    padding-top: 25px;
+    background: url("/assets/brick_wall.jpg");
+    color: black;
+    padding-left: 25px;
+}
+
+.lr-two {
+  padding-top: 25px;
+  width: 100px;
+  padding-left: 0px;
+  background: url("/assets/brick_wall.jpg");
+}
+
+.lr-two .lead{
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1em;
+  border-radius: 15px;
+}
+
+h2 {
+
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.clients {
+    display: flex;
+    height: 50vh;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clients img {
+    width: 300px;
+}
+
+footer {
+    background: #333;
+    color: white;
+
+    padding: 3em;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.img-thumbnail {
+  height: 100px;
+  background-color: rgba(0,0,0,.9);
+}
+
+.moe {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+  border: 3px solid #000;
+    border-radius: .25rem;
+}
