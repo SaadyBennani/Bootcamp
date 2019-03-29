@@ -1,0 +1,18 @@
+.img-thumbnail {
+  height: 100px;
+  background-color: rgba(0,0,0,.9);
+  border: none;
+}
+
+.backdrop {
+  background-size: cover;
+  background: url("/assets/backdrop.jpg");
+  background-position: 80% 75%;
+}
+
+.wall_break {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: black;
+  padding-left: 25px;
+}
