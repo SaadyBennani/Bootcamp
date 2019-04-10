@@ -1,0 +1,39 @@
+<!-- //html for grading_lab js -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grading Your Exam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='stylesheet.css' />
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Grading Converter</h1>
+    <p class="lead">Easily convert your numerical test scores to letter grades! Simply enter your numeric score below.</p>
+    <br>
+
+    <div class="form-row">
+     <div class="form-group col-md-6">
+       <label for="numericScore">Score</label>
+       <input type="text" class="form-control" id="numericScore" placeholder="e.g 87">
+     </div>
+     </div>
+<br>
+<div>
+    <p class="lead">
+      <a href="#" id= 'convert' class="btn btn-lg btn-secondary">Convert</a>
+    </p>
+  </div>
+  <br>
+  <div>
+    <input id='letter-grade' class="form-control" type="text" placeholder="Letter Grade..." readonly>
+  </div>
+  </main>
+
+
+<script src="grading.js"></script>
+  </body>
+</html>
