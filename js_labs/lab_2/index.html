@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='stylesheet.css' />
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <main role="main" class="inner cover">
+    <h1 class="cover-heading">Number Guesser</h1>
+    <p class="lead">Guess a number between 0 and 10....Yes, including 0</p>
+    <br>
+
+    <div class="form-row">
+     <div class="form-group col-md-6">
+       <label for="userGuess">Your Guess</label>
+       <input type="text" class="form-control" id="userGuess" placeholder="Enter your number">
+     </div>
+     </div>
+<br>
+<div>
+    <p class="lead">
+      <a href="#" id= 'submit' class="btn btn-lg btn-secondary">Submit</a>
+    </p>
+  </div>
+  <br>
+  <div>
+    <input id='result' class="form-control" type="text" placeholder="Result" readonly>
+  </div>
+  </main>
+
+
+<script src="guess.js"></script>
+  </body>
+</html>
