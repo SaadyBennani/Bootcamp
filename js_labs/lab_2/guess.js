@@ -41,7 +41,7 @@ submitBtn.addEventListener('click', (evt) =>{
   console.log(guessCorrect)
   guessCorrect.value = `${computerResponse}`
   if (computerChoice === userGuess) {
-    userGuess = userGuess.value
+    userGuess = 'userGuess.value'
   } else if (computerChoice != userGuess) {
     userGuess.value = ''
   }
