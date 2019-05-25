@@ -42,6 +42,10 @@ body {
   max-width: 42em;
 }
 
+.cover-container .iframe {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
 
 /*
  * Header
@@ -103,4 +107,13 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+}
+
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.output {
+    background: #eee;
 }

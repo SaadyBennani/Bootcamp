@@ -19,6 +19,7 @@ const rButton = document.querySelector('#redirect')
 
 //event listener
 rButton.addEventListener('click', (evt)=> {
-  console.log('Bloooop')
-  window.location.href = randomUrl(websiteList);
+  console.log('Bloooop');
+  document.getElementById("frame").src = randomUrl(websiteList);
+
 })

@@ -1,8 +1,8 @@
 # saadia.py
 import random
 
-name_list = ['Saad', 'Dia']
+name_list = ['Saad', 'Jim', 'Nigel', 'Bill']
 
-dish_doer = random.choice(name_list)
+song_singer = random.choice(name_list)
 
-print(dish_doer)
+print(song_singer)
